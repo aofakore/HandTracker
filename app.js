@@ -24,7 +24,7 @@ handTrack.startVideo(video).then(status => {
       { video: {} },
       stream => {
         video.srcObject = stream;
-        setInterval(runDetection, 10);
+        setInterval(runDetection, 1000);
       },
       err => console.log(err)
     );
@@ -35,6 +35,9 @@ const runDetection = () => {
   model.detect(video).then(predictions => {
     console.log(predictions);
     model.renderPredictions(predictions, canvas, context, video);
+    if (predictions.length > 0) {
+      audio.play();
+    }
   });
 };
 
