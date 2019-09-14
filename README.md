@@ -1,12 +1,12 @@
 # HandTracker
 
 ## Description
-HandTracker is a web application that plays audio when hand is detected on webcam view
+HandTracker is a web application that plays audio when hand is detected on webcam view.
 
 
 ## Installation
 
-Using Script tag
+### Using Script tag
 Use the [HandTrack.js](https://github.com/victordibia/handtrack.js/) library by including it in an html file with a script tag.
 
 ```bash
