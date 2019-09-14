@@ -18,7 +18,7 @@ Use the [HandTrack.js](https://github.com/victordibia/handtrack.js/) library by 
 * [HandTrack.js](https://github.com/victordibia/handtrack.js/) - The web framework used
 * JavaScript - Contains functionality to access webcam, render images and play audio
 * HTML & CSS - Basic templating and styling
-```
+
 ## Usage
 
 * Open index.html in browser and give browser permission to use webcam.
